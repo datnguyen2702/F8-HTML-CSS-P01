@@ -5,6 +5,11 @@
 :root {
     --primary-color: #0F1B4C
 }
+
+html, body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -60,7 +65,7 @@ a {
 .header {
     position: relative;
     width: 100vw;
-    height: 736px;
+    height: 646px;
     display: flex;
     flex-direction: column;
     background: #E6F0FF;
@@ -147,7 +152,6 @@ a {
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
-    top: 117px;
 }
 
 .clients {
